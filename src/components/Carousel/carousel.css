@@ -1,0 +1,45 @@
+.carousel-slider {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.carousel {
+    color: white;
+    width: 65%;
+    margin: auto;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h1, p {
+    padding: 15px;
+}
+
+.description button {
+    margin-top:15px;
+    border-radius: 20px;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 80px;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    color: #ffffff !important;
+    border-radius: 100%;
+    font-size: 35px;
+}
+
+.slick-dots li.slick-active button:before {
+    font-family: 'slick';
+    color: #ffffff !important;
+    font-size: 15px;
+}

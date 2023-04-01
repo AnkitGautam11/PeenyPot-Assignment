@@ -1,0 +1,29 @@
+.navbar {
+    background-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.tagLinks {
+    margin-right: 100px;
+}
+
+.tagLinks a {
+    color: white;
+    padding-inline: 20px;
+    text-decoration: none;
+}
